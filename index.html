@@ -80,8 +80,6 @@
             $("#good-category-text").text(returnMBTI(returnMBTI(mbti, 'good'), 'name'))
             $("#bad-category-text").text(returnMBTI(returnMBTI(mbti, 'bad'), 'name'))
             $("#result-img").attr("src", returnMBTI(mbti, 'img'))
-            $("#good-category-img").attr("src", returnMBTI(returnMBTI(mbti, 'good'), 'img'))
-            $("#bad-category-img").attr("src", returnMBTI(returnMBTI(mbti, 'bad'), 'img'))
         }
 
         function returnMBTI(mbti, key) {
@@ -226,7 +224,7 @@
             // body 로 부터 다시 반환 한다.
             document.body.removeChild(aux);
             //alert(aux.value);
-            alert("${copyLinkMsg}");
+            alert("링크가 복사되었습니다! 친구들에게 공유하세요!");
         }
     </script>
 </head>
@@ -277,23 +275,15 @@
                 그런 사람이군요!
             </span>
             <div class="compatibility">
-                <div id="good" class="part" style="float: left;">
-                    <img class="compatibility-img" style="float: left;" id="good-category-img" src="img/temp-result.png"
-                        alt="">
-                    <div class="compatibility-text" style="float: right; text-align: left; padding-right: 0;">
-                        <span id="good-category-explain" style="font-size: 0.7em;">잘 맞아요 🙂</span>
-                        <br>
-                        <span id="good-category-text" style="font-size: 0.9em;">고양이1</span>
-                    </div>
+                <div id="good" class="part">
+                    <span id="good-category-explain" style="font-size: 1em;">잘 맞아요 🙂</span>
+                    <br>
+                    <span id="good-category-text" style="font-size: 0.9em;">고양이1</span>
                 </div>
-                <div id="bad" class="part" style="float: right;">
-                    <img class="compatibility-img" style="float: right;" id="bad-category-img" src="img/temp-result.png"
-                        alt="">
-                    <div class="compatibility-text" style="float: left; text-align: right; padding-left: 0;">
-                        <span id="bad-category-explain" style="font-size: 0.7em;">안 맞아요 🙁</span>
-                        <br>
-                        <span id="bad-category-text" style="font-size: 0.9em;">고양이2</span>
-                    </div>
+                <div id="bad" class="part">
+                    <span id="bad-category-explain" style="font-size: 1em;">안 맞아요 🙁</span>
+                    <br>
+                    <span id="bad-category-text" style="font-size: 0.9em;">고양이2</span>
                 </div>
             </div>
         </div>

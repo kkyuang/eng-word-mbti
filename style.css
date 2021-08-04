@@ -145,30 +145,29 @@ button{
     margin-bottom: 10px;
 }
 
-.compatibility-img{
-    width: calc(var(--parentHeight));
-}
-
 .part{
-    width: 50%;
-    height: 100%;
+    width: calc(50% - 2.5px);
+    height: auto;
+    display: inline-block;
+    text-align: center;
 }
 
 .compatibility{
     width: 80%;
-    padding: calc(var(--parentHeight) * 0.1);
+    padding: 10px;
     margin: 2em auto;
     margin-top: 1em;
     font-size: 1em;
     --parentHeight: 5em;
-    height: var(--parentHeight);
+    height: auto;
     background-color: #eeeeee;
     border-radius: 1em;
     display: block;
+    text-align: left;
 }
 
 .compatibility-text{
-    width: calc(100% - (var(--parentHeight)) - 20px);
+    width: 50%;
     margin: 1em 0;
     padding: 0 10px;
     height: 3em;
