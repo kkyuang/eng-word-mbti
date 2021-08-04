@@ -8,11 +8,11 @@ var MBTIs = {
         'N': {
             'T': {
                 'P': {
-                    'name': 'Knowledge',
+                    'name': 'Logical',
                     'descript': 'INTP입니다 ;)',
                     'good': 'ESFJ',
                     'bad': 'ESFP',
-                    'korean': '지식'
+                    'korean': '논리적인'
                 },
                 'J': {
                     'name': 'Improve',
