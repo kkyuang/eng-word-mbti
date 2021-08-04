@@ -149,7 +149,6 @@
 
         function questionRefresh(n) {
             $("#question-text").text(questions[n]['question'])
-            $("#question-img").attr("src", questions[n]['img'])
             $("#answer-0").text(questions[n]['answers'][true]['text'])
             $("#answer-1").text(questions[n]['answers'][false]['text'])
             $("#progress-bar-finished").css("width", (((n + 1) / questions.length) * 100) + "%")
@@ -255,7 +254,6 @@
             </div>
         </div>
         <div class="question">
-            <img id="question-img" src="img/question-img.png" alt="질문 이미지">
             <div class="question-text">
                 <span id="question-text">
                     당신은 ~한가요?
