@@ -8,14 +8,14 @@ var MBTIs = {
         'N': {
             'T': {
                 'P': {
-                    'name': 'INTP',
+                    'name': 'Knowledge',
                     'descript': 'INTP입니다 ;)',
                     'good': 'ESFJ',
                     'bad': 'ESFP',
                     'img': 'img/temp-result.png'
                 },
                 'J': {
-                    'name': 'INTJ',
+                    'name': 'Improve',
                     'descript': 'INTJ입니다 ;)',
                     'good': 'ESFP',
                     'bad': 'ESFJ',
@@ -24,14 +24,14 @@ var MBTIs = {
             },
             'F': {
                 'P': {
-                    'name': 'INFP',
+                    'name': 'Dreamy',
                     'descript': 'INFP입니다 ;)',
                     'good': 'ESTJ',
                     'bad': 'ESTP',
                     'img': 'img/temp-result.png'
                 },
                 'J': {
-                    'name': 'INFJ',
+                    'name': 'Sympathy',
                     'descript': 'INFJ입니다 ;)',
                     'good': 'ESTP',
                     'bad': 'ESTJ',
@@ -42,14 +42,14 @@ var MBTIs = {
         'S': {
             'T': {
                 'P': {
-                    'name': 'ISTP',
+                    'name': 'Workaholic',
                     'descript': 'ISTP입니다 ;)',
                     'good': 'ENFJ',
                     'bad': 'ENFP',
                     'img': 'img/temp-result.png'
                 },
                 'J': {
-                    'name': 'ISTJ',
+                    'name': 'Halcyon',
                     'descript': 'ISTJ입니다 ;)',
                     'good': 'ENFP',
                     'bad': 'ENFJ',
@@ -58,14 +58,14 @@ var MBTIs = {
             },
             'F': {
                 'P': {
-                    'name': 'ISFP',
+                    'name': 'Artistic',
                     'descript': 'ISFP입니다 ;)',
                     'good': 'ENTJ',
                     'bad': 'ENTP',
                     'img': 'img/temp-result.png'
                 },
                 'J': {
-                    'name': 'ISFJ',
+                    'name': 'Patience',
                     'descript': 'ISFJ입니다 ;)',
                     'good': 'ENTP',
                     'bad': 'ENTJ',
@@ -78,14 +78,14 @@ var MBTIs = {
         'N': {
             'T': {
                 'P': {
-                    'name': 'ENTP',
+                    'name': 'Whimsical',
                     'descript': 'ENTP입니다 ;)',
                     'good': 'ISFJ',
                     'bad': 'ISFP',
                     'img': 'img/temp-result.png'
                 },
                 'J': {
-                    'name': 'ENTJ',
+                    'name': 'Effective',
                     'descript': 'ENTJ입니다 ;)',
                     'good': 'ISFP',
                     'bad': 'ISFJ',
@@ -94,14 +94,14 @@ var MBTIs = {
             },
             'F': {
                 'P': {
-                    'name': 'ENFP',
+                    'name': 'Curiosity',
                     'descript': 'ENFP입니다 ;)',
                     'good': 'ISTJ',
                     'bad': 'ISTP',
                     'img': 'img/temp-result.png'
                 },
                 'J': {
-                    'name': 'ENFJ',
+                    'name': 'Empathic',
                     'descript': 'ENFJ입니다 ;)',
                     'good': 'ISTP',
                     'bad': 'ISTJ',
@@ -112,14 +112,14 @@ var MBTIs = {
         'S': {
             'T': {
                 'P': {
-                    'name': 'ESTP',
+                    'name': 'Adventurous',
                     'descript': 'ESTP입니다 ;)',
                     'good': 'INFJ',
                     'bad': 'INFP',
                     'img': 'img/temp-result.png'
                 },
                 'J': {
-                    'name': 'ESTJ',
+                    'name': 'Commander',
                     'descript': 'ESTJ입니다 ;)',
                     'good': 'INFP',
                     'bad': 'INFJ',
@@ -128,14 +128,14 @@ var MBTIs = {
             },
             'F': {
                 'P': {
-                    'name': 'ESFP',
+                    'name': 'Sociable',
                     'descript': 'ESFP입니다 ;)',
                     'good': 'INTJ',
                     'bad': 'INTP',
                     'img': 'img/temp-result.png'
                 },
                 'J': {
-                    'name': 'ESFJ',
+                    'name': 'Witty',
                     'descript': 'ESFJ입니다 ;)',
                     'good': 'INTP',
                     'bad': 'INTJ',
