@@ -6,7 +6,10 @@
     font-family: 'nexon';
     src: url('font/WEB_NEXON\ Lv1\ Gothic/NEXON Lv1 Gothic OTF Light.woff');
 }
-@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300&display=swap');
+@font-face {
+    font-family: 'Gaegu';
+    src: url('font/Gaegu-Light.ttf');
+}
 
 .start-btn{
     width: 50%;
@@ -145,6 +148,7 @@ button{
     font-size: 1.5em;
     border-radius: 1em;
     padding: auto;
+    font-family: 'Gaegu', cursive;
 }
 
 .share-btn{
@@ -154,6 +158,7 @@ button{
     border-radius: 1em;
     padding: auto;
     margin-bottom: 10px;
+    font-family: 'Gaegu', cursive;
 }
 
 button{
