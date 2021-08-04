@@ -1,0 +1,19 @@
+{
+    "testName": "성격테스트",
+    "testDescript": "MBTI 기반 성격테스트",
+    "testKeyword": "MBTI,성격테스트,성격,테스트",
+    "testShareImg": "testshareimglink",
+    "analyticsLink": "애널리틱스 링크",
+    "analyticsCode": "애널리틱스 코드",
+    "googleWebmasterCode": "구글웹마스터 코드",
+    "testLink": "https://kkyuang.github.io/테스트링크",
+    "makerLink": "https://www.youtube.com/channel/UC4xXYnoB9kFnxdUPG_Hcy7A",
+    "makerName": "뀨앙지윤",
+    "mainImg": "img/main-img.png",
+    "goodCompatibilityExplain": "잘 맞아요!",
+    "badCompatibilityExplain": "안 맞아요!",
+    "retryText": "다시 하기",
+    "startBtnMsg": "시작하기",
+    "shareText": "링크 복사",
+    "CopyLinkMsg": "링크가 복사되었습니다! 친구들에게 공유하세요!"
+}
