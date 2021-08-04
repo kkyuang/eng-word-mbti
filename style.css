@@ -1,5 +1,14 @@
+@font-face {
+    font-family: 'montecarlo';
+    src: url('font/MonteCarlo-Regular.ttf');
+}
+@font-face {
+    font-family: 'nexon';
+    src: url('font/WEB_NEXON\ Lv1\ Gothic/NEXON Lv1 Gothic OTF Light.woff');
+}
+
 body{
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'nexon', sans-serif;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -153,7 +162,7 @@ button{
 }
 
 .compatibility{
-    width: 80%;
+    width: calc(80% - 20px);
     padding: 10px;
     margin: 2em auto;
     margin-top: 1em;
