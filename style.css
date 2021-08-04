@@ -154,8 +154,12 @@ button{
     margin-bottom: 10px;
 }
 
+button{
+    font-weight: lighter;
+}
+
 .part{
-    width: calc(50% - 2.5px);
+    width: calc(50% - 5px);
     height: auto;
     display: inline-block;
     text-align: center;
