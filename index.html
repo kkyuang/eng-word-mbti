@@ -83,7 +83,7 @@
             $("#result-text").text(returnMBTI(mbti, 'descript'))
             $("#good-category-text").text(returnMBTI(returnMBTI(mbti, 'good'), 'name'))
             $("#bad-category-text").text(returnMBTI(returnMBTI(mbti, 'bad'), 'name'))
-            $("#result-img").attr("src", returnMBTI(mbti, 'img'))
+            $("#result-korean").text(returnMBTI(mbti, 'korean'))
         }
 
         function returnMBTI(mbti, key) {
@@ -269,10 +269,10 @@
     </div>
     <div id="result-div" class="pannel">
         <div class="top-category">
-            <h1 class="title" style="margin-bottom: 0.5em; font-family: 'montecarlo', sans-serif; font-size: 3em" id="result-name">
+            <h1 class="title" style="margin-bottom: 0.2em; font-family: 'montecarlo', sans-serif; font-size: 3em" id="result-name">
                 고양이
             </h1>
-            <img id="result-img" src="img/temp-result.png" alt="결과 이미지">
+            <span id="result-korean">
         </div>
         <div class="bottom-descript">
             <span id="result-text">

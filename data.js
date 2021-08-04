@@ -12,14 +12,14 @@ var MBTIs = {
                     'descript': 'INTP입니다 ;)',
                     'good': 'ESFJ',
                     'bad': 'ESFP',
-                    'img': 'img/temp-result.png'
+                    'korean': '지식'
                 },
                 'J': {
                     'name': 'Improve',
                     'descript': 'INTJ입니다 ;)',
                     'good': 'ESFP',
                     'bad': 'ESFJ',
-                    'img': 'img/temp-result.png'
+                    'korean': '개선하다'
                 }
             },
             'F': {
@@ -28,14 +28,14 @@ var MBTIs = {
                     'descript': 'INFP입니다 ;)',
                     'good': 'ESTJ',
                     'bad': 'ESTP',
-                    'img': 'img/temp-result.png'
+                    'korean': '꿈꾸는 듯한'
                 },
                 'J': {
                     'name': 'Sympathy',
                     'descript': 'INFJ입니다 ;)',
                     'good': 'ESTP',
                     'bad': 'ESTJ',
-                    'img': 'img/temp-result.png'
+                    'korean': '동정심'
                 }
             }
         },
@@ -46,14 +46,14 @@ var MBTIs = {
                     'descript': 'ISTP입니다 ;)',
                     'good': 'ENFJ',
                     'bad': 'ENFP',
-                    'img': 'img/temp-result.png'
+                    'korean': '워커홀릭'
                 },
                 'J': {
                     'name': 'Halcyon',
                     'descript': 'ISTJ입니다 ;)',
                     'good': 'ENFP',
                     'bad': 'ENFJ',
-                    'img': 'img/temp-result.png'
+                    'korean': '평온한'
                 }
             },
             'F': {
@@ -62,14 +62,14 @@ var MBTIs = {
                     'descript': 'ISFP입니다 ;)',
                     'good': 'ENTJ',
                     'bad': 'ENTP',
-                    'img': 'img/temp-result.png'
+                    'korean': '예술적인'
                 },
                 'J': {
                     'name': 'Patience',
                     'descript': 'ISFJ입니다 ;)',
                     'good': 'ENTP',
                     'bad': 'ENTJ',
-                    'img': 'img/temp-result.png'
+                    'korean': '인내'
                 }
             }
         }
@@ -82,14 +82,14 @@ var MBTIs = {
                     'descript': 'ENTP입니다 ;)',
                     'good': 'ISFJ',
                     'bad': 'ISFP',
-                    'img': 'img/temp-result.png'
+                    'korean': '기발한'
                 },
                 'J': {
                     'name': 'Effective',
                     'descript': 'ENTJ입니다 ;)',
                     'good': 'ISFP',
                     'bad': 'ISFJ',
-                    'img': 'img/temp-result.png'
+                    'korean': '효과적인'
                 }
             },
             'F': {
@@ -98,14 +98,14 @@ var MBTIs = {
                     'descript': 'ENFP입니다 ;)',
                     'good': 'ISTJ',
                     'bad': 'ISTP',
-                    'img': 'img/temp-result.png'
+                    'korean': '호기심'
                 },
                 'J': {
                     'name': 'Empathic',
                     'descript': 'ENFJ입니다 ;)',
                     'good': 'ISTP',
                     'bad': 'ISTJ',
-                    'img': 'img/temp-result.png'
+                    'korean': '공감하는'
                 }
             }
         },
@@ -116,14 +116,14 @@ var MBTIs = {
                     'descript': 'ESTP입니다 ;)',
                     'good': 'INFJ',
                     'bad': 'INFP',
-                    'img': 'img/temp-result.png'
+                    'korean': '모험적인'
                 },
                 'J': {
                     'name': 'Commander',
                     'descript': 'ESTJ입니다 ;)',
                     'good': 'INFP',
                     'bad': 'INFJ',
-                    'img': 'img/temp-result.png'
+                    'korean': '지휘자'
                 }
             },
             'F': {
@@ -132,14 +132,14 @@ var MBTIs = {
                     'descript': 'ESFP입니다 ;)',
                     'good': 'INTJ',
                     'bad': 'INTP',
-                    'img': 'img/temp-result.png'
+                    'korean': '사교적인'
                 },
                 'J': {
                     'name': 'Witty',
                     'descript': 'ESFJ입니다 ;)',
                     'good': 'INTP',
                     'bad': 'INTJ',
-                    'img': 'img/temp-result.png'
+                    'korean': '재치있는'
                 }
             }
         }
