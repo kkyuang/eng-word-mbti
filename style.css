@@ -6,6 +6,18 @@
     font-family: 'nexon';
     src: url('font/WEB_NEXON\ Lv1\ Gothic/NEXON Lv1 Gothic OTF Light.woff');
 }
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300&display=swap');
+
+.start-btn{
+    width: 50%;
+    height: 2em;
+    font-size: 1.5em;
+    border-radius: 1em;
+    border-color: #556070;
+    padding: auto;
+    margin-top: 32px;
+    font-family: 'Gaegu', cursive;
+}
 
 body{
     font-family: 'nexon', sans-serif;
@@ -31,16 +43,6 @@ body{
 .title{
     margin-top: 1em;
     margin-bottom: 1em;
-}
-
-.start-btn{
-    width: 50%;
-    height: 2em;
-    font-size: 1.5em;
-    border-radius: 1em;
-    border-color: #556070;
-    padding: auto;
-    margin-top: 32px;
 }
 
 button{

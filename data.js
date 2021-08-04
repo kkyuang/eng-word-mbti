@@ -65,11 +65,11 @@ var MBTIs = {
                     'korean': '예술적인'
                 },
                 'J': {
-                    'name': 'Patience',
+                    'name': 'Patient',
                     'descript': 'ISFJ입니다 ;)',
                     'good': 'ENTP',
                     'bad': 'ENTJ',
-                    'korean': '인내'
+                    'korean': '인내심 있는'
                 }
             }
         }
