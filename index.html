@@ -80,7 +80,7 @@
             mbti += weight['P'] > weight['J'] ? 'P' : 'J'
 
             $("#result-name").text(returnMBTI(mbti, 'name'))
-            $("#result-text").text(returnMBTI(mbti, 'descript').replace(/\n/gi, "<br>"))
+            document.getElementById("result-text").innerHTML = returnMBTI(mbti, 'descript').replace(/\n/gi, "<br>");
             $("#good-category-text").text(returnMBTI(returnMBTI(mbti, 'good'), 'name'))
             $("#bad-category-text").text(returnMBTI(returnMBTI(mbti, 'bad'), 'name'))
             $("#result-korean").text(returnMBTI(mbti, 'korean'))
@@ -275,7 +275,6 @@
         </div>
         <div class="bottom-descript">
             <span id="result-text">
-                그런 사람이군요!
             </span>
             <div class="compatibility">
                 <div id="good" class="part">

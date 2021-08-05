@@ -140,6 +140,9 @@ button{
     background-color: #eeeeee;
     border-radius: 1em;
     display: block;
+    text-align: left;
+    line-height: 170%;
+    word-break: keep-all;
 }
 
 .retry-btn{
