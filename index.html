@@ -80,7 +80,7 @@
             mbti += weight['P'] > weight['J'] ? 'P' : 'J'
 
             $("#result-name").text(returnMBTI(mbti, 'name'))
-            $("#result-text").text(returnMBTI(mbti, 'descript'))
+            $("#result-text").text(returnMBTI(mbti, 'descript').replace(/\n/gi, "<br>"))
             $("#good-category-text").text(returnMBTI(returnMBTI(mbti, 'good'), 'name'))
             $("#bad-category-text").text(returnMBTI(returnMBTI(mbti, 'bad'), 'name'))
             $("#result-korean").text(returnMBTI(mbti, 'korean'))
@@ -265,7 +265,7 @@
             <button class="answer-btn" onclick="answer(false)" id="answer-1">아니요 ~하지 않습니다</button>
         </div>
     </div>
-    <div id="result-div" class="pannel">
+    <div id="result-div" class="pannel" style="height: auto; top: 6.25%; left: 50%; transform: translate(-50%, 0);">
         <div class="top-category">
             <h1 class="title" style="margin-bottom: 0.2em; font-family: 'montecarlo', sans-serif; font-size: 3em" id="result-name">
                 고양이
