@@ -150,8 +150,8 @@ button{
     height: 2em;
     font-size: 1.5em;
     border-radius: 1em;
-    padding: auto;
-    margin-bottom: 2em;
+    padding: auto; 
+    margin-bottom: 10px;
     font-family: 'Gaegu', cursive;
 }
 
