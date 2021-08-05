@@ -155,7 +155,9 @@
             $("#question-text").text(questions[n]['question'])
             $("#answer-0").text(questions[n]['answers'][true]['text'])
             $("#answer-1").text(questions[n]['answers'][false]['text'])
-            $("#progress-bar-finished").css("width", (((n + 1) / questions.length) * 100) + "%")
+            $("#progress-bar-finished").animate({
+                width : (((n + 1) / questions.length) * 100) + "%"
+            }, 800)
             $("#progress-text").text((n + 1) + "/" + questions.length)
         }
 
