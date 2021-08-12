@@ -112,8 +112,8 @@ button{
 }
 
 .question-text{
-    width: 80%;
-    padding: 10px 0;
+    width: calc(80% - 20px);
+    padding: 10px;
     margin: 2em auto;
     margin-top: 1em;
     font-size: 1em;
