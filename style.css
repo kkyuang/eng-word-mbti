@@ -126,7 +126,7 @@ button{
     padding: 10px;
     display: block;
     font-size: 1em;
-    width: calc(80% - 20px);
+    width: calc(80%);
     background-color: #eeeeee;
     border: none;
 }
